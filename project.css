@@ -1,0 +1,75 @@
+        body {
+            background-image: scr="D:\HTML\Arloo.jpg";
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: white;
+        }
+        
+        footer {
+            font-size: 20px;
+            border: 2px solid rgb(87, 81, 81);
+            position: fixed;
+            bottom: 0%;
+            left: 0%;
+            right: 0%;
+        }
+        
+        iframe {
+            position: fixed;
+            left: 0%;
+            bottom: 13%;
+            height: 87%;
+            background: transparent;
+        }
+        
+        li {
+            color: white;
+            list-style: none;
+            display: inline;
+            margin: 30px;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+            margin-left: 4px;
+        }
+        
+        a:hover {
+            color: rgb(186, 226, 43);
+        }
+        
+        .arloo {
+            display: inline;
+            width: 75%;
+            height: 20;
+            float: left;
+            letter-spacing: 2px;
+            margin-left: 30%;
+            word-spacing: 5px;
+            border-top: 0px;
+        }
+        
+        .sea {
+            outline-style: none;
+            border-radius: 20px;
+            width: 160px;
+            height: 60px;
+            outline-style: none;
+            border: 1px solid white;
+            background-color: rgb(190, 181, 181);
+            height: 30px;
+        }
+        
+        .sea>i {
+            font-size: 15px;
+            padding-left: 6px;
+            color: black;
+        }
+        
+        .sea>input {
+            border: none;
+            font-size: 15px;
+            background-color: transparent;
+        }
